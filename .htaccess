@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?l1=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?l1=$1
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?l1=$1&Cat=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?l1=$1&Cat=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?l1=$1&l2=$2&l3=$3
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?l1=$1&l2=$2&l3=$3
+
+
+
+</IfModule>
