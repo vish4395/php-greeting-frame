@@ -1,8 +1,6 @@
 # GREETING FRAMES: PERSONALIZED GREETING
 
-![Example image](http://newai.in/bds/greetframesquarejpg.php?frame=Halloween/frame_sqr_Halloween_1&text=Your%20Name&text2=&dp=i.pravatar.cc/300?u=924&width=200)
-![Example image](http://newai.in/bds/greetframe.php?frame=Good%20Morning/frame_Good-Morning_02&text=Your%20Name&text2=&dp=i.pravatar.cc/300?u=113&width=400)
-![Example image](http://newai.in/bds/greetframesquarejpg.php?frame=Good%20Night/frame_sqr_lay-1_Good-Night_23&text=Your%20Name&text2=&dp=i.pravatar.cc/300?u=865&width=200)
+![Example image](https://raw.githubusercontent.com/vish4395/php-greeting-frame/master/images/footerbar.jpg)
 # CARD GENERATOR SCRIPT
 
 ### INTRODUCTION
@@ -48,6 +46,7 @@ It is a core php website for easy greeting pack making for a user. It puts a use
 1. Just add a new folder in Greetings folder
 2. Name must be in URL format like no special format. See example folders already with pack.
 
+
 #### 2. ADD GREETING/FRAMES
 ```
 All the greeting / frames are stored in categories in Greetings folder/directory
@@ -58,19 +57,24 @@ Name must be in following format: frame_{CategoryName}_{numbering}.jpg
 example: frame_Anniversary_02.jpg
 saved in `.jpg` format | Size: 948 x 440 px
 ```
+![Example rectangle one image](https://raw.githubusercontent.com/vish4395/php-greeting-frame/master/frame_GN_09.jpg)
+
 2. Rectangle - Two
 ```
 Name must be in following format: frame_{CategoryName}_{numbering}.png
 example: frame_bday_06.png
 saved in `.png` format with transparency | Size: 948 x 440 px
 ```
+![Example rectangle Two image](https://raw.githubusercontent.com/vish4395/php-greeting-frame/master/Greetings/Birthday/frame_bday_06.png)
 
 3. Square – One
 ```
-Name must be in following format: frame_sqr_lay-{layout _number}_{C ategoryName}_{numbering}.jpg
-example: frame_sqr_lay-1_Good-Morn ing_32.jpg
+Name must be in following format: frame_sqr_lay-{layout _number}_{CategoryName}_{numbering}.jpg
+example: frame_sqr_lay-1_Good-Morning_32.jpg
 s aved in .jpg format | Si ze: 500x500px
 ```
+![Example Square One image](https://raw.githubusercontent.com/vish4395/php-greeting-frame/master/Greetings/Love/frame_sqr_lay-1_Love_8.jpg)
+
 4. Square – Full
 
 ```
@@ -78,6 +82,8 @@ Name must be in following format: frame_ CategoryName}_{numbering}.png
 example: frame_quote_square_06.png
 saved in .png format | Size: 500x500px
 ```
+![Example Square Full image](https://raw.githubusercontent.com/vish4395/php-greeting-frame/master/Greetings/Square/frame_quote_square_06.png)
+
 ## *Put image frame only on where examples have.
 
 
